@@ -336,17 +336,16 @@
     }
     .human{
         width: 100%;
-        max-width: 960px;
         height: 80px;
         display: flex;
         /* justify-content: center;
         align-items: center; */
         flex-direction: row;
-        gap: 1rem;
+        gap: .5rem;
         text-transform: capitalize;
         font-family: 'Poppins';
         font-style: normal;
-        font-size: 13px;
+        font-size: 5px;
     }
     .span{
         display: flex;

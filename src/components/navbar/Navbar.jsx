@@ -33,7 +33,7 @@ const Navbar = () => {
 
                
               
-              <div className={`bars ${isOpen ? "open" : "close"}`}>
+              <div className={`bars ${isOpen ? "open" : ""}`}>
               <div className="others">
                    <NavLink to='/aboutus'>About Us</NavLink>
                    <Link to='/event'>Events</Link>

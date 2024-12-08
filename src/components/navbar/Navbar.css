@@ -97,6 +97,36 @@ color: #FF3850;
 } */
 
 @media (max-width: 768px){
+    .next{
+        color: #FFCC15;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 23.28px
+    }
+    .logo{
+        width: 115px;
+        height: 83px;
+        line-height: 1rem;
+        margin-left: 20%;
+    }
+    .the{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 23.28px;
+        color: #fff;
+    }
+    .show{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34.92px;
+    color: #FF3850;
+    }
     .toggle{
         display: flex;
     }
@@ -126,7 +156,7 @@ color: #FF3850;
         display: flex;
     }
 
-    .bars.close {
+    /* .bars.close {
         transform: translateY(100%); 
-    }
+    } */
 }
