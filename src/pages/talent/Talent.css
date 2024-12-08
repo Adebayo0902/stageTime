@@ -1,0 +1,15 @@
+.form-even{
+    min-height: 80vh;
+    padding-left: 150px;
+    position: absolute;
+    top: 50rem;
+}
+@media (max-width: 768px) {
+    .event-ticket{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 300px 0;
+    }
+}

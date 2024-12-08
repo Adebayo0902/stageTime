@@ -1,0 +1,68 @@
+.event-ticket{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 300px;
+}
+.form-event{
+  min-height: 80vh;
+  padding-left: 50px;
+  position: absolute;
+  top: 50rem;
+}
+.eventdv{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.eventdv button{
+    width: 150px;
+    height: 40px;
+    background-color: #017297;
+    color: #fff;
+    border: none;
+}
+.name{
+    padding: 5px 10px;
+    width: 400px;
+    border: 3px solid #017297;
+}
+.pad{
+    border: none;
+    outline: none; 
+    width: 100%; 
+    background: transparent; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 20px;
+    text-align: justify;
+    color: #017297;
+    height: 40px;
+    padding-left: 10px;
+}
+.pad::placeholder {
+    color: #017297; 
+    font-size: 15px; 
+    font-family: 'Poppins';
+    font-style: normal;
+}
+.email{
+    width: 400px;
+    height: 50px;
+    border: 3px solid #017297;
+}
+.ticket-type{
+    padding: 5px 10px;
+    width: 400px;
+    border: 3px solid #017297;
+}
+.ticket-number{
+    padding: 5px 10px;
+    width: 400px;
+    border: 3px solid #017297;
+}
